@@ -1,17 +1,26 @@
 body{
-    font-family: "Montserrat";
+    font-family: "Ubuntu";
 }
-h1{
+
+h1, h2, h3{
     font-family: "Montserrat";
-    font-size: 4rem;
     line-height: 1.5;
+}
+
+h1{
+    font-size: 4rem;
     color: aliceblue;
 }
 h2{
-    font-family: "Montserrat";
     font-size: 3rem;
-    line-height: 1.5;
 }
+
+/* Heading */
+.big-heading{
+    font-size: 4rem;
+    color: aliceblue;
+}
+
 /* Title */
 #title{
     background-color: #ff4c68;
@@ -19,14 +28,11 @@ h2{
 .container-fluid{
     padding:3% 15% 0 15%;
 }
-
-
 .title-img{
     width: 60%;
     transform: rotate(25deg); 
     position: absolute;
 }
-
 
 /* Features */
 #features{
@@ -54,20 +60,16 @@ h2{
 }
 
 /* Buttons */
-
 .download-button{
     margin: 5% 3% 5% 0;    
 }
-
 
 /* Navigation bar */
 .navbar{
     padding: 0 0 5rem 0;
     
 }
-
 .navbar-brand{
-    font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -77,6 +79,7 @@ h2{
 .nav-link{
     font-size: 1.5rem;
 }
+
 /* Testomoniels */
 #testimonials{
     text-align: center;
@@ -89,14 +92,13 @@ h2{
     margin: 2%;
 }
 .testimonial-text{
-    font-family: "Montserrat";
     font-size: 3rem;
-    line-height: 1.5;
     color: aliceblue;
 }
 .carousel-item{
     padding: 7% 15%;
 }
+
 /* Press */
 #press{
     background-color: #ef8172;
@@ -119,8 +121,8 @@ h2{
 .pricing-column{
     padding: 3% 2%;
 }
-/* CTA */
 
+/* CTA */
 #cta{
     background-color: #ff4c68;
     text-align: center;
@@ -128,9 +130,7 @@ h2{
     color: #fff;
 }
 #cta h3{
-    font-family: "Montserrat";
     font-size: 4rem;
-    line-height: 1.5;
 }
 #cta .btn{
     margin: 3% 1%;
@@ -146,21 +146,20 @@ h2{
 
 
 @media (max-width:990px) {
-    h1{
+    h1, h2, h3{
         font-family: "Montserrat";
-        font-size: 3rem;
         line-height: 1.5;
+    }
+
+    h1{
+        font-size: 3rem;
         color: aliceblue;
     }
     h2{
-        font-family: "Montserrat";
         font-size: 2rem;
-        line-height: 1.5;
     }
     .testimonial-text{
-        font-family: "Montserrat";
         font-size: 2rem;
-        line-height: 1.5;
         color: aliceblue;
     }
     .title-img{
@@ -174,27 +173,25 @@ h2{
     }
 
     #cta h3{
-        font-family: "Montserrat";
         font-size: 2rem;
-        line-height: 1.5;
+
     }
 }
 @media (max-width:600px) {
-    h1{
+    h1, h2, h3{
         font-family: "Montserrat";
-        font-size: 2rem;
         line-height: 1.5;
+    }
+    h1{
+        font-size: 2rem;
         color: aliceblue;
     }
     h2{
-        font-family: "Montserrat";
         font-size: 1.5rem;
         line-height: 1.5;
     }
     .testimonial-text{
-        font-family: "Montserrat";
         font-size: 1.5rem;
-        line-height: 1.5;
         color: aliceblue;
     }
     .title-img{
@@ -208,8 +205,6 @@ h2{
     }
 
     #cta h3{
-        font-family: "Montserrat";
         font-size: 1.5rem;
-        line-height: 1.5;
     }
 }
